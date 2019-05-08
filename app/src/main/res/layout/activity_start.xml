@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_app"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/sao"
+        android:layout_marginTop="75dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/login"
+        android:textSize="18sp"
+        android:background="@drawable/bg_btn"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="@string/login"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_btn"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/register"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="@string/register"/>
+
+    <LinearLayout
+        android:layout_margin="25dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:background="@mipmap/ic_thai"
+            android:id="@+id/btn_thai"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:layout_marginLeft="8dp"
+            android:background="@mipmap/ic_eng"
+            android:id="@+id/btn_eng"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:layout_marginLeft="8dp"
+            android:background="@mipmap/ic_jap"
+            android:id="@+id/btn_jap"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

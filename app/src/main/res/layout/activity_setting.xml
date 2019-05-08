@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/MenuStyle">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_layout"
+        android:layout_below="@+id/bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:id="@+id/laout1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:id="@+id/textView"
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorBlack"
+                android:text="@string/language" />
+
+            <LinearLayout
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:background="@mipmap/ic_thai"
+                    android:id="@+id/btn_thai"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:layout_marginLeft="8dp"
+                    android:background="@mipmap/ic_eng"
+                    android:id="@+id/btn_eng"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:layout_marginLeft="8dp"
+                    android:background="@mipmap/ic_jap"
+                    android:id="@+id/btn_jap"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <Switch
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/laout1"
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dark Mode" />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

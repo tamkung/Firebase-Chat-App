@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "656876382710",
+    "firebase_url": "https://mychat-a9ff0.firebaseio.com",
+    "project_id": "mychat-a9ff0",
+    "storage_bucket": "mychat-a9ff0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656876382710:android:1181747e0de7c6e2",
+        "android_client_info": {
+          "package_name": "com.tamkung.mychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656876382710-r7llqn0a3k4n4hfu8vb7q7gr250ojdgk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tamkung.mychat",
+            "certificate_hash": "d67703aa84a887c4ec8d108c67d6bac2bd5c2cde"
+          }
+        },
+        {
+          "client_id": "656876382710-4m266d04vrmbpu62mjjh0el4f3vogdi6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzto4oSXK8ymdNEJt3YXQ2vhR091Ziy_Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656876382710-4m266d04vrmbpu62mjjh0el4f3vogdi6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

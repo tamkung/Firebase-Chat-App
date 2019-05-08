@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name" translatable="false">MyChat</string>
+
+    <string-array name="language">
+        <item>Thai</item>
+        <item>English</item>
+        <item>Japan</item>
+    </string-array>
+
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="register">Register</string>
+    <string name="forgot">Forgot Password</string>
+    <string name="forgotemail">Enter your E-mail to change your password</string>
+    <string name="reset">Change Password</string>
+    <string name="search">Search...</string>
+    <string name="group">Groups</string>
+    <string name="chat">Message</string>
+    <string name="user">Users</string>
+    <string name="profile">Profile</string>
+    <string name="createGroup">CheateGroup</string>
+    <string name="changeLanguage">ChangeLanguage</string>
+    <string name="sent">Sent</string>
+    <string name="read">Read</string>
+    <string name="language">Language</string>
+    <string name="thai">Thai</string>
+    <string name="english">English</string>
+    <string name="groupName">Group Name</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+    <string name="please_name_group">Please name the group</string>
+    <string name="successfully">Successfully</string>
+    <string name="hintMessage">Message...</string>
+    <string name="all_fileds">All fileds are required</string>
+    <string name="checkEmail">Please check your Email</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="email">E-mail</string>
+    <string name="password_must">Password must be at least 6 characters</string>
+    <string name="auth_failed">Authentication failed!</string>
+    <string name="japan">Japan</string>
+    <string name="setting">Setting</string>
+
+</resources>

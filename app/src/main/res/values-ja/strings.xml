@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">ログイン</string>
+    <string name="logout">ログアウト</string>
+    <string name="register">レジスター</string>
+    <string name="forgot">パスワードをお忘れですか</string>
+    <string name="forgotemail">パスワードを変更するためにあなたのEメールを入力してください</string>
+    <string name="reset">パスワードを変更する</string>
+    <string name="search">サーチ...</string>
+    <string name="group">グループ</string>
+    <string name="chat">チャット</string>
+    <string name="user">ユーザー</string>
+    <string name="profile">プロフィール</string>
+    <string name="createGroup">チートグループ</string>
+    <string name="changeLanguage">ChangeLanguage</string>
+    <string name="sent">送信済み</string>
+    <string name="read">読む</string>
+    <string name="language">Language</string>
+    <string name="thai">Thai</string>
+    <string name="english">English</string>
+    <string name="groupName">グループ名</string>
+    <string name="create">作成する</string>
+    <string name="cancel">キャンセル</string>
+    <string name="please_name_group">グループに名前を付けてください</string>
+    <string name="successfully">成功しました</string>
+    <string name="hintMessage">メッセージ...</string>
+    <string name="all_fileds">全て必須項目です</string>
+    <string name="checkEmail">メールを確認してください</string>
+    <string name="password">パスワード</string>
+    <string name="username">ユーザー名</string>
+    <string name="email">Eメール</string>
+    <string name="password_must">パスワードは最低でも6文字必要です</string>
+    <string name="auth_failed">認証に失敗しました！</string>
+    <string name="japan">Japan</string>
+    <string name="setting">"セッティング \t "</string>
+</resources>

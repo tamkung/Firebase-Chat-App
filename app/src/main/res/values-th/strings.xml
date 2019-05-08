@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">เข้าสู่ระบบ</string>
+    <string name="logout">ออกจากระบบ</string>
+    <string name="register">สมัครสมาชิก</string>
+    <string name="forgot">ลืมรหัสผ่าน</string>
+    <string name="forgotemail">กรอก E-mail เพื่อเปลี่ยนรหัสผ่าน</string>
+    <string name="reset">เปลี่ยนรหัสผ่าน</string>
+    <string name="search">ค้นหา...</string>
+    <string name="group">กลุ่ม</string>
+    <string name="chat">ข้อความ</string>
+    <string name="user">ผู้ใช้</string>
+    <string name="profile">ข้อมูลส่วนตัว</string>
+    <string name="createGroup">สร้างกลุ่ม</string>
+    <string name="changeLanguage">ChangeLanguage</string>
+    <string name="read">อ่านแล้ว</string>
+    <string name="sent">ส่งแล้ว</string>
+    <string name="language">Language</string>
+    <string name="thai">Thai</string>
+    <string name="english">English</string>
+    <string name="groupName">ชื่อกลุ่ม</string>
+    <string name="create">สร้าง</string>
+    <string name="successfully">สร้างสำเร็จ</string>
+    <string name="please_name_group">กรุณาตั้งชื่อกลุ่ม</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="hintMessage">ข้อความ...</string>
+    <string name="all_fileds">กรุณากรอกข้อมูล</string>
+    <string name="checkEmail">"โปรดเช็ค E-Mail "</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="username">ชื่อผู้ใช้</string>
+    <string name="email">อีเมล</string>
+    <string name="password_must">รหัสผ่านต้องมากกว่า 6 ตัวอักษร</string>
+    <string name="auth_failed">เข้าสู่ระบบไม่สำเร็จ</string>
+    <string name="japan">Japan</string>
+    <string name="setting">"ตั้งค่า "</string>
+</resources>
